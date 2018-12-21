@@ -22,7 +22,9 @@ These two functions can be applied not only to marker genes from scRNA-seq but a
 CONCLUS was developed by Polina Pavlovich and Konstantin Chuckreev in the laboratory of Christophe Lancrin
 in the European Molecular Biology Laboratory, EMBL Rome.
 
-The vignette (link), an example R script (link) with all input files are available in the GitHub folder.
+The vignette, an [example R script](https://github.com/PolinaPavlovich/CONCLUS/blob/master/Example_full_workflow.R) with all input 
+files are available in the GitHub folder. We are sorry that currently we cannot render our vignette directly on GitHub because the file is too big 
+but you can open the '20181221_CONCLUS_vignette.html' file with your browser after cloning or downloading the CONCLUS folder to your computer.
 
 If you have any questions about the tool or suggestions, please contact Polina Pavlovich by *pavlovich@phystech.edu*. 
 

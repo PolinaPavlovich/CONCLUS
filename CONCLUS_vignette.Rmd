@@ -22,7 +22,7 @@ CONCLUS is a tool for robust clustering and positive marker features selection. 
 # Getting started with CONCLUS
 All code from this vignette is an extended version of *Example_full_workflow.R* (link to the script). We recommend using that script as a template for your daily analysis when the vignette contains extensive and detailed information about the CONCLUS algorithm and can be used for informational purposes. The R version which we use is 3.4.3.
 
-These are the early days of CONCLUS, and it exists not yet as a package but as a script *visualisation_and_clustering_functions.R* which you can download from the same folder (here must be a link to our GitHub) as the vignette. To run it on your machine you may need to install required packages if your R folder does not have them yet — all packages that CONCLUS needs are listed in the R chunk below. Please remove the first commenting symbol "#" in each line. Once you run it, you can skip this step next time.
+These are the early days of CONCLUS, and it exists not yet as a package but as a script *visualisation_and_clustering_functions.R* which you can download from the GitHub folder https://github.com/PolinaPavlovich/CONCLUS. To run it on your machine you may need to install required packages if your R folder does not have them yet — all packages that CONCLUS needs are listed in the R chunk below. Please remove the first commenting symbol "#" in each line. Once you run it, you can skip this step next time.
 
 ```{r}
 # install all needed packages 
