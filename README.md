@@ -45,5 +45,5 @@ providing freedom, time, checking the results of CONCLUS on their unpublished da
 We thank Dr. Nina Cabezas-Wallscheid from the Max Planck Institute of Immunogiology and Epigenetics in Freiburg for provided freedom, time, 
 and support in working on the tool.
 
-We are grateful to Alexey Samosyuk from the SkolTech Institute from Moscow for useful discussions and 
+We are grateful to Alexey Samosyuk from the SkolTech Institute in Moscow for useful discussions and 
 kindly provided a script for an alternative method of normalization. 
