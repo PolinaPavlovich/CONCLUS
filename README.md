@@ -1,6 +1,6 @@
-# CONCLUS
+# CONCLUS: from CONsensus CLUSters to a meaningful CONCLUSion
 
-CONCLUS (CONsensus CLUStering) is a tool for robust clustering and positive marker features selection.
+CONCLUS is a tool for robust clustering and positive marker features selection.
 The motivation was to create a user-friendly tool for scRNA-seq data which can distinguish not only cell types 
 from different tissues but also characterize heterogeneity within a tissue or capture in detail stages of a 
 differentiation process. Most of the existing tools offer only one clustering solution when a slight change of
@@ -17,11 +17,11 @@ and rename clusters that makes it an indispensable tool for creating concise and
 CONCLUS was developed by Polina Pavlovich and Konstantin Chuckreev in the laboratory of Christophe Lancrin
 in the European Molecular Biology Laboratory, EMBL Rome.
 
-The vignette (link), an example R script (link) with all input and output files are available in the GitHub folder.
+The vignette (link), an example R script (link) with all input files are available in the GitHub folder.
 
-If you have any questions, please contact Polina Pavlovich by pavlovich@phystech.edu. 
+If you have any questions about the tool or suggestions, please contact Polina Pavlovich by *pavlovich@phystech.edu*. 
 
-Authors contribution:
+## Authors contribution:
 
 Polina Pavlovich: development of a concept, writing the algorithm, refining the coding style, writing documentation
 Konstantin Chuckreev: creating a frame of a user-friendly tool, selecting the coding style
@@ -31,7 +31,7 @@ Andreas Buness: critics, ideas
 Maya Shvartsman: testing the code, comments
 Kerstin Ganter: testing the code
 
-Acknowledgment:
+## Acknowledgment:
 
 We want to thank Dr. Georg Gasteiger and Mi Lian from the Institute of System Immunobiology in Würzburg for
 providing freedom, time, checking the results of CONCLUS on their unpublished data during the rotation period of P.P which allowed
