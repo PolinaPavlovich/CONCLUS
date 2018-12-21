@@ -28,13 +28,13 @@ If you have any questions about the tool or suggestions, please contact Polina P
 
 ## Authors contribution:
 
-Polina Pavlovich: development of a concept, writing the algorithm, refining the coding style, writing documentation
-Konstantin Chuckreev: creating a frame of a user-friendly tool, selecting the coding style
-Christophe Lancrin: project leader, inspiration, ideas, testing the code
-Andreas Buness: critics, ideas
+Polina Pavlovich: development of a concept, writing the algorithm, refining the coding style, writing documentation.
+Konstantin Chuckreev: creating a frame of a user-friendly tool, selecting the coding style.
+Christophe Lancrin: project leader, inspiration, ideas, testing the code.
+Andreas Buness: critics, ideas.
 
 Maya Shvartsman: testing the code, comments.
-Kerstin Ganter: testing the code
+Kerstin Ganter: testing the code.
 
 ## Acknowledgment:
 
