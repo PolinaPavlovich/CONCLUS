@@ -44,7 +44,7 @@ We want to thank Dr. Georg Gasteiger and Mi Lian from the Institute of System Im
 providing freedom, time, checking the results of CONCLUS on their unpublished data during the rotation period of P.P which allowed
  to improve the functionality of the tool. 
 
-We thank Dr. Nina Cabezas-Wallscheid from the Max Planck Institute of Immunogiology and Epigenetics in Freiburg for provided freedom, time, 
+We thank Dr. Nina Cabezas-Wallscheid from the Max Planck Institute of Immunobiology and Epigenetics in Freiburg for provided freedom, time, 
 and support in working on the tool.
 
 We are grateful to Alexey Samosyuk from the SkolTech Institute in Moscow for useful discussions and 
