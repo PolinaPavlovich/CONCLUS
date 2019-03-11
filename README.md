@@ -19,7 +19,7 @@ SaveGenesInfo is a wrapper of getGeneInfo which allows saving tables for multipl
 These two functions can be applied not only to marker genes from scRNA-seq but also for DESeq2 results in bulk RNA-seq.
 
 
-CONCLUS was developed by Polina Pavlovich and Konstantin Chuckreev in the laboratory of Christophe Lancrin
+CONCLUS was developed by Polina Pavlovich and Konstantin Chukreev in the laboratory of Christophe Lancrin
 in the European Molecular Biology Laboratory, EMBL Rome.
 
 The vignette, an [example R script](https://github.com/PolinaPavlovich/CONCLUS/blob/master/Example_full_workflow.R) with all input 
@@ -31,7 +31,7 @@ If you have any questions about the tool or suggestions, please contact Polina P
 ## Authors contribution:
 
 Polina Pavlovich: development of a concept, writing the algorithm, refining the coding style, writing documentation.
-Konstantin Chuckreev: creating a frame of a user-friendly tool, selecting the coding style.
+Konstantin Chukreev: creating a frame of a user-friendly tool, selecting the coding style.
 Christophe Lancrin: project leader, inspiration, ideas, testing the code.
 Andreas Buness: critics, ideas.
 
