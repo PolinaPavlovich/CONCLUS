@@ -1,9 +1,9 @@
 # CONCLUS: from CONsensus CLUSters to a meaningful CONCLUSion
 
 ## How to install
-library(devtools)
-install_github("PolinaPavlovich/CONCLUS")
-library(conclus)
+library(devtools)  
+install_github("PolinaPavlovich/CONCLUS")  
+library(conclus)  
 
 ## Introduction
 CONCLUS is a tool for robust clustering and positive marker features selection.
@@ -35,13 +35,13 @@ If you have any questions about the tool or suggestions, please contact Polina P
 
 ## Authors contribution:
 
-Polina Pavlovich: development of a concept, writing the algorithm, refining the coding style, writing documentation, building the package.
-Konstantin Chukreev: creating a frame of a user-friendly tool, selecting the coding style, writing documentation.
+Polina Pavlovich: development of a concept, writing the algorithm, refining the coding style, writing documentation, building the package.  
+Konstantin Chukreev: creating a frame of a user-friendly tool, selecting the coding style, writing documentation.  
 Christophe Lancrin: project leader, inspiration, ideas, testing the code, writing documentation.
 
-Andreas Buness: critics, ideas.
-Maya Shvartsman: testing the code, comments.
-Kerstin Ganter: testing the code.
+Andreas Buness: critics, ideas.  
+Maya Shvartsman: testing the code, comments.  
+Kerstin Ganter: testing the code.  
 Nicolas Descostes comments.
 
 ## Acknowledgment:
