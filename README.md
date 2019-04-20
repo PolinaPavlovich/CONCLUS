@@ -1,5 +1,11 @@
 # CONCLUS: from CONsensus CLUSters to a meaningful CONCLUSion
 
+## How to install
+library(devtools)
+install_github("PolinaPavlovich/CONCLUS")
+library(conclus)
+
+## Introduction
 CONCLUS is a tool for robust clustering and positive marker features selection.
 The motivation was to create a user-friendly tool for single-cell RNA sequencing (scRNA-seq) data which can distinguish not only cell types 
 from different tissues but also characterize heterogeneity within a tissue or capture in detail stages of a 
@@ -23,29 +29,24 @@ CONCLUS was developed by Polina Pavlovich and Konstantin Chukreev in the laborat
 in the European Molecular Biology Laboratory, EMBL Rome.
 
 The vignette, an [example R script](https://github.com/PolinaPavlovich/CONCLUS/blob/master/Example_full_workflow.R) with all input 
-files are available in the GitHub folder. We are sorry that currently we cannot render our vignette directly on GitHub because the file is too big 
-but you can open the '20181221_CONCLUS_vignette.html' file with your browser after cloning or downloading the CONCLUS folder to your computer.
+files are available in the GitHub folder. We are sorry that currently we cannot render our vignette directly on GitHub because the file is too big but you can open the '20181221_CONCLUS_vignette.html' file with your browser after cloning or downloading the CONCLUS folder to your computer.
 
 If you have any questions about the tool or suggestions, please contact Polina Pavlovich by *pavlovich@phystech.edu*. 
 
 ## Authors contribution:
 
-Polina Pavlovich: development of a concept, writing the algorithm, refining the coding style, writing documentation.
-Konstantin Chukreev: creating a frame of a user-friendly tool, selecting the coding style.
-Christophe Lancrin: project leader, inspiration, ideas, testing the code.
-Andreas Buness: critics, ideas.
+Polina Pavlovich: development of a concept, writing the algorithm, refining the coding style, writing documentation, building the package.
+Konstantin Chukreev: creating a frame of a user-friendly tool, selecting the coding style, writing documentation.
+Christophe Lancrin: project leader, inspiration, ideas, testing the code, writing documentation.
 
+Andreas Buness: critics, ideas.
 Maya Shvartsman: testing the code, comments.
 Kerstin Ganter: testing the code.
+Nicolas Descostes comments.
 
 ## Acknowledgment:
 
 We want to thank Dr. Georg Gasteiger and Mi Lian from the Institute of System Immunobiology in Würzburg for
-providing freedom, time, checking the results of CONCLUS on their unpublished data during the rotation period of P.P which allowed
- to improve the functionality of the tool. 
+providing freedom, time, checking the results of CONCLUS on their unpublished data during the rotation period of P.P. which allowed to improve the functionality of the tool. 
 
-We thank Dr. Nina Cabezas-Wallscheid from the Max Planck Institute of Immunobiology and Epigenetics in Freiburg for provided freedom, time, 
-and support in working on the tool.
-
-We are grateful to Alexey Samosyuk from the SkolTech Institute in Moscow for useful discussions and 
-kindly provided a script for an alternative method of normalization. 
+We thank Dr. Nina Cabezas-Wallscheid from the Max Planck Institute of Immunobiology and Epigenetics in Freiburg for provided freedom, time, and support in working on the tool. 
