@@ -1,0 +1,24 @@
+\indexentry{addClusteringManually@\texttt  {addClusteringManually}|hyperpage}{2}
+\indexentry{calculateClustersSimilarity@\texttt  {calculateClustersSimilarity}|hyperpage}{3}
+\indexentry{choosePalette@\texttt  {choosePalette}|hyperpage}{3}
+\indexentry{clusterCellsInternal@\texttt  {clusterCellsInternal}|hyperpage}{4}
+\indexentry{exportClusteringResults@\texttt  {exportClusteringResults}|hyperpage}{4}
+\indexentry{exportMatrix@\texttt  {exportMatrix}|hyperpage}{5}
+\indexentry{generateTSNECoordinates@\texttt  {generateTSNECoordinates}|hyperpage}{5}
+\indexentry{getGenesInfo@\texttt  {getGenesInfo}|hyperpage}{6}
+\indexentry{getMarkerGenes@\texttt  {getMarkerGenes}|hyperpage}{7}
+\indexentry{initialisePath@\texttt  {initialisePath}|hyperpage}{7}
+\indexentry{normaliseCountMatrix@\texttt  {normaliseCountMatrix}|hyperpage}{8}
+\indexentry{plotCellHeatmap@\texttt  {plotCellHeatmap}|hyperpage}{9}
+\indexentry{plotCellSimilarity@\texttt  {plotCellSimilarity}|hyperpage}{10}
+\indexentry{plotClusteredTSNE@\texttt  {plotClusteredTSNE}|hyperpage}{11}
+\indexentry{plotClustersSimilarity@\texttt  {plotClustersSimilarity}|hyperpage}{12}
+\indexentry{plotGeneExpression@\texttt  {plotGeneExpression}|hyperpage}{13}
+\indexentry{rankGenes@\texttt  {rankGenes}|hyperpage}{14}
+\indexentry{runClustering@\texttt  {runClustering}|hyperpage}{14}
+\indexentry{runCONCLUS@\texttt  {runCONCLUS}|hyperpage}{15}
+\indexentry{$*$Topic{\relax \fontsize  {12}{14}\selectfont  \ \textbf  {CONCLUS}}!runCONCLUS@\texttt  {runCONCLUS}|hyperpage}{15}
+\indexentry{runDBSCAN@\texttt  {runDBSCAN}|hyperpage}{17}
+\indexentry{saveGenesInfo@\texttt  {saveGenesInfo}|hyperpage}{17}
+\indexentry{saveMarkersLists@\texttt  {saveMarkersLists}|hyperpage}{18}
+\indexentry{testClustering@\texttt  {testClustering}|hyperpage}{19}

@@ -1,0 +1,59 @@
+\begin{theindex}
+
+  \item $*$Topic{\relax \fontsize  {12}{14}\selectfont  \ \textbf  {CONCLUS}}
+    \subitem \texttt  {runCONCLUS}, \hyperpage{15}
+
+  \indexspace
+
+  \item \texttt  {addClusteringManually}, \hyperpage{2}
+
+  \indexspace
+
+  \item \texttt  {calculateClustersSimilarity}, \hyperpage{3}
+  \item \texttt  {choosePalette}, \hyperpage{3}
+  \item \texttt  {clusterCellsInternal}, \hyperpage{4}
+
+  \indexspace
+
+  \item \texttt  {exportClusteringResults}, \hyperpage{4}
+  \item \texttt  {exportMatrix}, \hyperpage{5}
+
+  \indexspace
+
+  \item \texttt  {generateTSNECoordinates}, \hyperpage{5}
+  \item \texttt  {getGenesInfo}, \hyperpage{6}
+  \item \texttt  {getMarkerGenes}, \hyperpage{7}
+
+  \indexspace
+
+  \item \texttt  {initialisePath}, \hyperpage{7}
+
+  \indexspace
+
+  \item \texttt  {normaliseCountMatrix}, \hyperpage{8}
+
+  \indexspace
+
+  \item \texttt  {plotCellHeatmap}, \hyperpage{9}
+  \item \texttt  {plotCellSimilarity}, \hyperpage{10}
+  \item \texttt  {plotClusteredTSNE}, \hyperpage{11}
+  \item \texttt  {plotClustersSimilarity}, \hyperpage{12}
+  \item \texttt  {plotGeneExpression}, \hyperpage{13}
+
+  \indexspace
+
+  \item \texttt  {rankGenes}, \hyperpage{14}
+  \item \texttt  {runClustering}, \hyperpage{14}
+  \item \texttt  {runCONCLUS}, \hyperpage{15}
+  \item \texttt  {runDBSCAN}, \hyperpage{17}
+
+  \indexspace
+
+  \item \texttt  {saveGenesInfo}, \hyperpage{17}
+  \item \texttt  {saveMarkersLists}, \hyperpage{18}
+
+  \indexspace
+
+  \item \texttt  {testClustering}, \hyperpage{19}
+
+\end{theindex}
