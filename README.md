@@ -11,7 +11,7 @@ The motivation was to create a user-friendly tool for single-cell RNA sequencing
 from different tissues but also characterize heterogeneity within a tissue or capture in detail stages of a 
 differentiation process. Most of the existing tools offer only one clustering solution when a slight change of
 input parameters can lead to significant changes. Programs with consensus approach lack of a proper marker selection.
-CONCLUS shows the dynamic how the solution change in dozens of clustering attempts which frees the user from multiple 
+CONCLUS shows how the solution change in dozens of clustering attempts which frees the user from multiple 
 restarting the program and exhausting manual adjustment of settings. CONCLUS allows looking at the data at different 
 levels from major groups (families of clusters) to the most detailed grouping. The consensus solution allows avoiding
 picking technical artifacts of one concrete clustering or t-SNE. CONCLUS uses topological analysis for clustering and statistics for markers selection.
