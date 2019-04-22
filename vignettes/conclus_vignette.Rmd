@@ -8,12 +8,13 @@ author: |
   | $^2$Moscow Institute of Physics and Technology, MIPT,  Moscow, Russia
   | $^3$Current address: Max Planck Institute of Immunobiology and Epigenetics, MPI-IE, Freiburg, Germany
 output:
-  prettydoc::html_pretty:
+  html_notebook:
     toc: true # table of content true
     toc_depth: 3  # upto three depths of headings (specified by #, ## and ###)
     number_sections: true  ## if you want number sections at each table header
     fig_width: 7
     fig_height: 6
+    theme: cerulean
 vignette: >
   %\VignetteIndexEntry{ScRNA-seq workflow CONCLUS: from CONsensus CLUSters to a meaningful CONCLUSion}
   %\VignetteEngine{knitr::rmarkdown}
