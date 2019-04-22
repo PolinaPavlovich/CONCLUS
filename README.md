@@ -5,6 +5,8 @@ library(devtools)
 install_github("PolinaPavlovich/CONCLUS")  
 library(conclus)  
 
+Note: if you install conclus on a local Linux machine you might need to install rJava. A simple instruction how to do it you can find here https://www.r-bloggers.com/installing-rjava-on-ubuntu/.
+
 ## Introduction
 CONCLUS is a tool for robust clustering and positive marker features selection.
 The motivation was to create a user-friendly tool for single-cell RNA sequencing (scRNA-seq) data which can distinguish not only cell types 
