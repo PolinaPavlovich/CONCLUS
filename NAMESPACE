@@ -26,6 +26,6 @@ export(saveGenesInfo)
 export(saveMarkersLists)
 export(testClustering)
 importFrom(foreach,"%dopar%")
-import(ggplot2, Matrix, dbscan, pheatmap, fpc, zoo, dynamicTreeCut, factoextra, 
-digest, RColorBrewer, doParallel, dplyr, matrixStats, BiocParallel, scran, 
-scater, monocle, KEGGREST, biomaRt, AnnotationDbi, SingleCellExperiment, S4Vectors, Biobase)
+import(ggplot2, pheatmap, zoo, dynamicTreeCut, factoextra, 
+digest, RColorBrewer, doParallel, BiocParallel, scran, 
+monocle, KEGGREST, AnnotationDbi, SingleCellExperiment)
