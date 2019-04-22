@@ -1,4 +1,4 @@
-# CONCLUS: from CONsensus CLUSters to a meaningful CONCLUSion
+# ScRNA-seq workflow CONCLUS: from CONsensus CLUSters to a meaningful CONCLUSion
 
 ## How to install
 library(devtools)  
