@@ -604,7 +604,7 @@ excludeOutliers <- function(dbscanMatrix, sceObject, threshold=0.3){
                                 %in% colnames(dbscanMatrix),]
 
   if(is.vector(colData)){
-    colData <- DataFrame(cellName=colData, row.names=colData)
+    colData <- S4Vectors::DataFrame(cellName=colData, row.names=colData)
   }
 
   # Case if coldata has the outliers scores already
@@ -1091,7 +1091,7 @@ mkSimMed <- function(simMat, clusters){
     clusterNames <- levels(clusters)
 
     for(i in 1:ncol(clusMed)){
-        clusMed[,i] <- rowMedians(simMat[,clusters == clusterNames[i]])
+        clusMed[,i] <- matrixStats::rowMedians(simMat[,clusters == clusterNames[i]])
     }
 
     clusMed <- t(clusMed)
@@ -1100,7 +1100,7 @@ mkSimMed <- function(simMat, clusters){
                      nrow=length(unique(clusters)))
 
     for(i in 1:ncol(simMed)){
-        simMed[,i] <- rowMedians(clusMed[,clusters == clusterNames[i]])
+        simMed[,i] <- matrixStats::rowMedians(clusMed[,clusters == clusterNames[i]])
     }
 
     # colnames(simMed) = 1:length(unique(clusters))
@@ -2085,7 +2085,7 @@ plotGeneExpression <- function(geneName, experimentName, dataDirectory,
 exportClusteringResults <- function(sceObject, dataDirectory,
                                     experimentName, fileName){
 
-  tableData <- DataFrame(clusters = SummarizedExperiment::colData(sceObject)$clusters,
+  tableData <- S4Vectors::DataFrame(clusters = SummarizedExperiment::colData(sceObject)$clusters,
                          row.names = SummarizedExperiment::colData(sceObject)$cellName)
   write.table(tableData,
               file = file.path(dataDirectory, "output_tables",

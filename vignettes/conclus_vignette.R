@@ -1,6 +1,6 @@
 ## ------------------------------------------------------------------------
-# required R >= 3.4
-suppressWarnings(library(conclus))
+# required R >= 3.4. In the current vignette, we used R 3.5.0.
+library(conclus)
 
 ## ------------------------------------------------------------------------
 # setting necessary parameters
@@ -104,15 +104,14 @@ orderClusters = FALSE
 clustersNumber <- length(unique(SummarizedExperiment::colData(sceObjectFiltered)$clusters))
 colorPalette <- conclus::choosePalette(colorPalette, clustersNumber)
 
-# Plotting cluster stablility
-ph <- conclus::plotCellSimilarity(sceObjectFiltered, cellsSimilarityMatrix, dataDirectory,
+# Plotting stability of clusters
+conclus::plotCellSimilarity(sceObjectFiltered, cellsSimilarityMatrix, dataDirectory,
                  experimentName, colorPalette, 
                  orderClusters = orderClusters, 
                  statePalette = statePalette, 
                  clusteringMethod = clusteringMethod,
                  plotPDF = plotPDFcellSim,
                  returnPlot = TRUE)
-plot(ph$gtable)
 
 ## ------------------------------------------------------------------------
 deepSplit = 0 # 0 to avoid cutreeDynamic, 1 to 4 to use it
@@ -147,14 +146,13 @@ clustersNumber <- length(unique(SummarizedExperiment::colData(sceObjectFiltered)
 colorPalette <- conclus::choosePalette(colorPalette, clustersNumber)
 
 # Plotting cluster stablility
-ph <- conclus::plotCellSimilarity(sceObjectFiltered, cellsSimilarityMatrix, dataDirectory,
+conclus::plotCellSimilarity(sceObjectFiltered, cellsSimilarityMatrix, dataDirectory,
                  experimentName, colorPalette, 
                  orderClusters = orderClusters, 
                  statePalette = statePalette, 
                  clusteringMethod = clusteringMethod,
                  plotPDF = plotPDFcellSim,
                  returnPlot = TRUE)
-plot(ph$gtable)
 
 ## ------------------------------------------------------------------------
 tSNEclusters <- conclus::plotClusteredTSNE(sceObjectFiltered, dataDirectory, experimentName,
@@ -180,7 +178,7 @@ clustersSimilarityMatrix <-
           sceObject = sceObjectFiltered,
           clusteringMethod = "ward.D2")[[1]]
   
-ph <- conclus::plotClustersSimilarity(clustersSimilarityMatrix, 
+conclus::plotClustersSimilarity(clustersSimilarityMatrix, 
                        sceObjectFiltered,
                        dataDirectory = dataDirectory, 
                        experimentName = experimentName, 
@@ -188,7 +186,6 @@ ph <- conclus::plotClustersSimilarity(clustersSimilarityMatrix,
                        statePalette = statePalette,
                        clusteringMethod = clusteringMethod,
                        returnPlot = TRUE)
-plot(ph$gtable)
 
 ## ------------------------------------------------------------------------
 conclus::rankGenes(sceObjectFiltered, clustersSimilarityMatrix, dataDirectory, 
@@ -230,7 +227,7 @@ markersClusters <- conclus::getMarkerGenes(dataDirectory, sceObjectCONCLUS,
 orderClusters <- T # F will apply hierarchical clustering to all cells
 orderGenes <- T    # F will apply hierarchical clustering to all genes
 meanCentered <- T  # F to show normalized counts
-ph <- conclus::plotCellHeatmap(markersClusters, sceObjectCONCLUS, dataDirectory, 
+conclus::plotCellHeatmap(markersClusters, sceObjectCONCLUS, dataDirectory, 
                 experimentName, 
                 paste0("clusters",
                        length(levels(SummarizedExperiment::colData(sceObjectCONCLUS)$clusters)),
@@ -251,13 +248,12 @@ ph <- conclus::plotCellHeatmap(markersClusters, sceObjectCONCLUS, dataDirectory,
                                            "#a31008","#7a0f09"))(100),
                 returnPlot = TRUE,
                 width = 7.5, height = 6.5)
-plot(ph$gtable)
 
 ## ------------------------------------------------------------------------
 orderClusters <- T # F will apply hierarchical clustering to all cells
 orderGenes <- T    # F will apply hierarchical clustering to all genes
 meanCentered <- F  # F to show normalized counts
-ph <- conclus::plotCellHeatmap(markersClusters, sceObjectCONCLUS, dataDirectory, 
+conclus::plotCellHeatmap(markersClusters, sceObjectCONCLUS, dataDirectory, 
                 experimentName, 
                 paste0("clusters",
                        length(levels(SummarizedExperiment::colData(sceObjectCONCLUS)$clusters)),
@@ -277,7 +273,6 @@ ph <- conclus::plotCellHeatmap(markersClusters, sceObjectCONCLUS, dataDirectory,
                                            "#F4794E", "#D73027",
                                            "#a31008","#7a0f09"))(100),
                 returnPlot = TRUE)
-plot(ph$gtable)
 
 ## ------------------------------------------------------------------------
 clustersTable <- read.delim(file.path(dataDirectory, "output_tables",                                                    paste0(experimentName, "_clusters_table.tsv")), 
@@ -312,7 +307,7 @@ markersClusters <- getMarkerGenes(dataDirectory, sceObjectCONCLUS,
 orderClusters <- T # F will apply hierarchical clustering to all cells
 orderGenes <- T    # F will apply hierarchical clustering to all genes
 meanCentered <- T  # F to show normalized counts
-ph <- conclus::plotCellHeatmap(markersClusters, sceObjectCONCLUS, dataDirectory, 
+conclus::plotCellHeatmap(markersClusters, sceObjectCONCLUS, dataDirectory, 
                 experimentName, 
                 paste0("clusters",
                        length(levels(SummarizedExperiment::colData(sceObjectCONCLUS)$clusters)),
@@ -333,7 +328,6 @@ ph <- conclus::plotCellHeatmap(markersClusters, sceObjectCONCLUS, dataDirectory,
                                            "#a31008", "#921912"))(100),
                 returnPlot = TRUE,
                 width = 7, height = 5.5)
-plot(ph$gtable)
 
 ## ------------------------------------------------------------------------
 # 6. Plot gene expression in a selected tSNE plot

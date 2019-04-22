@@ -8,13 +8,12 @@ author: |
   | $^2$Moscow Institute of Physics and Technology, MIPT,  Moscow, Russia
   | $^3$Current address: Max Planck Institute of Immunobiology and Epigenetics, MPI-IE, Freiburg, Germany
 output:
-  html_notebook:
+  prettydoc::html_pretty:
     toc: true # table of content true
     toc_depth: 3  # upto three depths of headings (specified by #, ## and ###)
     number_sections: true  ## if you want number sections at each table header
     fig_width: 7
     fig_height: 6
-    theme: cerulean
 vignette: >
   %\VignetteIndexEntry{ScRNA-seq workflow CONCLUS: from CONsensus CLUSters to a meaningful CONCLUSion}
   %\VignetteEngine{knitr::rmarkdown}
@@ -34,7 +33,7 @@ CONCLUS then use the Density-based spatial clustering of applications with noise
 # Getting started with CONCLUS
 ```{r}
 # required R >= 3.4. In the current vignette, we used R 3.5.0.
-suppressWarnings(library(conclus))
+library(conclus)
 ```
 
 In the current document, we introduce you detailed vignette explaining all steps of CONCLUS. 
