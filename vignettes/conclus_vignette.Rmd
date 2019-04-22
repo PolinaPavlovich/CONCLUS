@@ -44,7 +44,7 @@ Before starting, we need to specify an output directory. Most of the CONCLUS fun
 ```{r}
 # setting necessary parameters
 # dataDirectory is output directory
-dataDirectory <- "/data/cabezas/group/pavlovich/data/other/Embryos/conclus_example_run"
+dataDirectory <- "YourOutpuDirectory"
 experimentName <- "Bergiers"
 ```
 
