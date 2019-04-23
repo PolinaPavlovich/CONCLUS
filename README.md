@@ -2,7 +2,7 @@
 
 ## How to install
 
-#Required R version: 3.4.0 <= R < 3.7.0
+#Required R version: 3.4.0 <= R < 3.7.0  
 #install.packages("devtools")  
 library(devtools)  
 install_github("PolinaPavlovich/CONCLUS")  
