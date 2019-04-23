@@ -58,4 +58,4 @@ providing freedom, time, checking the results of CONCLUS on their unpublished da
 
 We thank Dr. Nina Cabezas-Wallscheid from the Max Planck Institute of Immunobiology and Epigenetics in Freiburg for provided freedom, time, and support in working on the tool. 
 
-We are grateful to Dr. Emmy Tsang from Embl Rome for useful discussion and idea for the algorithm.
+We are grateful to Dr. Emmy Tsang from EMBL Rome for useful discussion and idea for the algorithm.
