@@ -33,8 +33,8 @@ These two functions can be applied not only to marker genes from scRNA-seq but a
 CONCLUS was developed by Polina Pavlovich and Konstantin Chukreev in the laboratory of Christophe Lancrin
 in the European Molecular Biology Laboratory, EMBL Rome.
 
-The pdf reference manual for CONCLUS is 'conclus_manual.pdf'.
-The vignette 'conclus_vignette.nb.html' is located in the vignettes. We are sorry that currently we cannot render our vignette directly on GitHub because the file is too big but you can open the html file with your browser after cloning or downloading the CONCLUS folder to your computer  
+The pdf reference manual for CONCLUS is 'conclus_manual.pdf'.  
+The vignette 'conclus_vignette.nb.html' is located in the 'vignettes' folder. We are sorry that currently we cannot render our vignette directly on GitHub because the file is too big but you can open the html file with your browser after cloning or downloading the CONCLUS folder to your computer.
 
 If you do not want to download the folder with the entire package but quickly get only the documentation, you can check the project https://github.com/PolinaPavlovich/CONCLUS_documentation with the files 'conclus_manual.pdf' and 'conclus_vignette.nb.html.'
 
