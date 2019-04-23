@@ -49,7 +49,7 @@ Dr. Christophe Lancrin: project leader, inspiration, ideas, testing the code, wr
 Andreas Buness: critics, ideas.  
 Dr. Maya Shvartsman: testing the code, comments.  
 Kerstin Ganter: testing the code.  
-Nicolas Descostes comments.
+Dr. Nicolas Descostes comments.
 
 ## Acknowledgment:
 
