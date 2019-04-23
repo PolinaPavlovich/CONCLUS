@@ -1,11 +1,14 @@
 # ScRNA-seq workflow CONCLUS: from CONsensus CLUSters to a meaningful CONCLUSion
 
 ## How to install
+
+#Required R version: 3.4.0 <= R < 3.7.0
+#install.packages("devtools")  
 library(devtools)  
 install_github("PolinaPavlovich/CONCLUS")  
 library(conclus)  
 
-Note: if you install conclus on a local Linux machine you might need to install rJava. A simple instruction how to do it you can find here https://www.r-bloggers.com/installing-rjava-on-ubuntu/.
+Note: if you install conclus on a local Linux machine you might need to install rJava. A simple instruction how to do it you can find here https://www.r-bloggers.com/installing-rjava-on-ubuntu/. On Windows PC, during the installation of conclus, in case if needed, R will return you a link to the website of Java Oracle to download the update.
 
 ## Introduction
 CONCLUS is a tool for robust clustering and positive marker features selection.
