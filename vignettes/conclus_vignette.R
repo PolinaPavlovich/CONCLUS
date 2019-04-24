@@ -5,7 +5,7 @@ library(conclus)
 ## ------------------------------------------------------------------------
 # setting necessary parameters
 # dataDirectory is output directory
-dataDirectory <- "/data/cabezas/group/pavlovich/data/other/Embryos/conclus_example_run"
+dataDirectory <- "YourOutputDirectory"
 experimentName <- "Bergiers"
 
 ## ------------------------------------------------------------------------
@@ -342,7 +342,7 @@ tSNEstate[[10]]
 ## ------------------------------------------------------------------------
 # 7. getGenesInfo example
 result <- getGenesInfo(markersClusters, groupBy = "clusters",
-                       getUniprot = FALSE)
+                       getUniprot = FALSE) # please change to getUniprot = TRUE
 
 # 7.1 save the result
 outputDir <- file.path(dataDirectory, "/marker_genes/getGenesInfo")
@@ -357,7 +357,7 @@ saveMarkersLists(experimentName, dataDirectory)
 
 ## ------------------------------------------------------------------------
 saveGenesInfo(dataDirectory, sep = ";", header = TRUE, 
-              startFromFile = 9, getUniprot = FALSE)
+              startFromFile = 9, getUniprot = FALSE) # please change to getUniprot = TRUE
 
 ## ------------------------------------------------------------------------
 saveRDS(sceObjectCONCLUS, file.path(dataDirectory, paste0("output_tables/", 
