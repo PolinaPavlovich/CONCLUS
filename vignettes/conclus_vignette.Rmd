@@ -8,13 +8,12 @@ author: |
   | $^2$Moscow Institute of Physics and Technology, MIPT,  Moscow, Russia
   | $^3$Current address: Max Planck Institute of Immunobiology and Epigenetics, MPI-IE, Freiburg, Germany
 output:
-  html_notebook:
+  prettydoc::html_pretty:
     toc: true # table of content true
     toc_depth: 3  # upto three depths of headings (specified by #, ## and ###)
     number_sections: true  ## if you want number sections at each table header
     fig_width: 7
     fig_height: 6
-    theme: cerulean
 vignette: >
   %\VignetteIndexEntry{ScRNA-seq workflow CONCLUS: from CONsensus CLUSters to a meaningful CONCLUSion}
   %\VignetteEngine{knitr::rmarkdown}
@@ -44,7 +43,7 @@ Before starting, we need to specify an output directory. Most of the CONCLUS fun
 ```{r}
 # setting necessary parameters
 # dataDirectory is output directory
-dataDirectory <- "YourOutpuDirectory"
+dataDirectory <- "YourOutputDirectory"
 experimentName <- "Bergiers"
 ```
 
@@ -504,7 +503,7 @@ To ensure that the vignette runs successfully from the first attempt, in the cur
 ```{r}
 # 7. getGenesInfo example
 result <- getGenesInfo(markersClusters, groupBy = "clusters",
-                       getUniprot = FALSE)
+                       getUniprot = FALSE) # please change to getUniprot = TRUE
 
 # 7.1 save the result
 outputDir <- file.path(dataDirectory, "/marker_genes/getGenesInfo")
@@ -525,7 +524,7 @@ saveMarkersLists(experimentName, dataDirectory)
 The result will be saved into the "dataDirectory/marker_genes/saveGenesInfo" directory. 
 ```{r}
 saveGenesInfo(dataDirectory, sep = ";", header = TRUE, 
-              startFromFile = 9, getUniprot = FALSE)
+              startFromFile = 9, getUniprot = FALSE) # please change to getUniprot = TRUE
 ```
 
 # Save the SingleCellExperiment object
