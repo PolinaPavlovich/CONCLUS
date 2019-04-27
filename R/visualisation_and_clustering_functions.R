@@ -356,6 +356,12 @@ runCONCLUS <- function(sceObject, dataDirectory, experimentName,
       calculateClustersSimilarity(cellsSimilarityMatrix,
           sceObject = sceObjectFiltered,
           clusteringMethod = clusteringMethod)[[1]]
+  
+  # Exporting key matrices
+  exportMatrix(cellsSimilarityMatrix, dataDirectory, experimentName,
+               "cellsSimilarityMatrix")
+  exportMatrix(clustersSimilarityMatrix, dataDirectory, experimentName,
+               "clustersSimilarityMatrix")
 
   plotClustersSimilarity(clustersSimilarityMatrix,
                          sceObject = sceObjectFiltered,
@@ -367,12 +373,6 @@ runCONCLUS <- function(sceObject, dataDirectory, experimentName,
 
   rankGenes(sceObjectFiltered, clustersSimilarityMatrix, dataDirectory,
             experimentName)
-
-  # Exporting key matrices
-  exportMatrix(cellsSimilarityMatrix, dataDirectory, experimentName,
-               "cellsSimilarityMatrix")
-  exportMatrix(clustersSimilarityMatrix, dataDirectory, experimentName,
-               "clustersSimilarityMatrix")
 
   return(sceObjectFiltered)
 }
