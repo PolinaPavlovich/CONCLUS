@@ -52,5 +52,4 @@ We say great thank to members of the VIGG RAS Institute in Moscow, Russia: Vsevo
 
 We thank Dr. Nina Cabezas-Wallscheid from the Max Planck Institute of Immunobiology and Epigenetics (MPI-IE) in Freiburg for provided freedom, time, and support in working on the tool. 
 
-We want to thank Dr. Georg Gasteiger and Mi Lian from the Institute of System Immunobiology in Würzburg for
-giving the feedback about CONCLUS results on unpublished data generated in collaboration with Dominic Grün lab from MPI-IE and providing freedom and time during the rotation period of P.P. for improving the functionality of the tool.
+We want to thank Dr. Georg Gasteiger and Mi Lian from the Institute of System Immunobiology in Würzburg for providing freedom and time during the rotation period of P.P. for improving the functionality of the tool and giving the feedback about CONCLUS results on unpublished data generated in collaboration with Dominic Grün lab from MPI-IE.
