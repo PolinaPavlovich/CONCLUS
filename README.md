@@ -48,8 +48,8 @@ Dr. Nicolas Descostes: comments.
 ## Acknowledgment:
 We are grateful to Dr. Emmy Tsang from EMBL Rome for useful discussion and a helpful idea.
 
-We say great thank to members of the VIGG RAS Institute in Moscow, Russia:  Vsevolod Makeev PhD, Dr. Sci; Sergey Bruskin, PhD; Artem Kasianov, PhD for helpful discussions and support during the Master program of P.P.
+We say great thank to members of the VIGG RAS Institute in Moscow, Russia: Vsevolod Makeev Ph.D., Dr. Sci; Sergey Bruskin, Ph.D.; Artem Kasianov, Ph.D. for helpful discussions and support during the Master program of P.P.
 
-We thank Dr. Nina Cabezas-Wallscheid from the Max Planck Institute of Immunobiology and Epigenetics (MPI-IE) in Freiburg for provided freedom, time, and support in working on the tool. 
+We thank Dr. Nina Cabezas-Wallscheid from the Max Planck Institute of Immunobiology and Epigenetics (MPI-IE) in Freiburg for provided freedom, time, and support in working on the tool.
 
 We want to thank Dr. Georg Gasteiger and Mi Lian from the Institute of System Immunobiology in Würzburg for providing freedom and time during the rotation period of P.P. for improving the functionality of the tool and giving the feedback about CONCLUS results on unpublished data generated in collaboration with Dominic Grün lab from MPI-IE.
