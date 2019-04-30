@@ -46,10 +46,11 @@ Kerstin Ganter: testing the code.
 Dr. Nicolas Descostes: comments.
 
 ## Acknowledgment:
+We are grateful to Dr. Emmy Tsang from EMBL Rome for useful discussion and a helpful idea.
+
+We say great thank to members of the VIGG RAS Institute in Moscow, Russia: Vsevolod Makeev, Sergey Bruskin, Artem Kasianov for helpful discussions and support during the Master program of P.P.
+
+We thank Dr. Nina Cabezas-Wallscheid from the Max Planck Institute of Immunobiology and Epigenetics (MPI-IE) in Freiburg for provided freedom, time, and support in working on the tool. 
 
 We want to thank Dr. Georg Gasteiger and Mi Lian from the Institute of System Immunobiology in Würzburg for
-providing freedom, time, checking the results of CONCLUS on their unpublished data during the rotation period of P.P. which allowed to improve the functionality of the tool. 
-
-We thank Dr. Nina Cabezas-Wallscheid from the Max Planck Institute of Immunobiology and Epigenetics in Freiburg for provided freedom, time, and support in working on the tool. 
-
-We are grateful to Dr. Emmy Tsang from EMBL Rome for useful discussion and idea for the algorithm.
+giving the feedback about CONCLUS results on unpublished data generated in collaboration with Dominic Grün lab from MPI-IE and providing freedom and time during the rotation period of P.P. for improving the functionality of the tool.
